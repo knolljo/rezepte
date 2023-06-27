@@ -2,8 +2,13 @@
 {% block title %}Reyepte{% endblock %}
 
 {% block content %}
-<h1 class="center">Reyepte</h1>
+<div class="center">
+  <img src="bowl.png" width="66px">
+  <h1>Reyepte</h1>
+</div>
+<!-- 
 <input type="search" id="search" name="search" placeholder="Search">
+-->
 
 <nav aria-label="breadcrumb">
   <ul>
@@ -14,21 +19,24 @@
 <div class="recipes">
 
   {% for page in section.pages %}
-  <div>
-    <a href="{{ page.permalink | safe }}">
-      <article>
 
-        {% if page.extra.img is defined %}
-        <img src="{{ page.extra.img }}">
-        {% else %}
-        {% endif %}
+  <a href="{{ page.permalink | safe }}">
+    {% if page.extra.img is defined %}
+    <article class="recipe-card">
 
-        <footer>
-          {{ page.title }}
-        </footer>
-      </article>
-    </a>
-  </div>
+      {% set image = resize_image(path=page.extra.img, width=500, height=500, op="fill", format="webp", quality=85) %}
+      <img src="{{ image.url }}" />
+
+      <footer>
+        {{ page.title }}
+      </footer>
+    </article>
+    {% else %}
+    <article>
+      {{ page.title }}
+    </article>
+    {% endif %}
+  </a>
   {% endfor %}
 
 </div>

@@ -28,7 +28,7 @@ template = "recipe.html"
 ###### Speck
   - Speck
   - Creme Fraiche
-  - Fruehlingszwibeln (kurz vor Ende der Backzeit hinzugeben)
+  - Fruehlingszwiebeln (kurz vor Ende der Backzeit hinzugeben)
 ###### Zucchini
   - Gebratene Zucchinischeiben
   - Creme Fracihe

@@ -1,11 +1,19 @@
-/* Custom Light-green version */
-
 $primary-500: #8edb68;
 $primary-600: #7ad44d;
 $primary-700: #5fc32e;
 
 .center {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  >h1 {
+    margin-bottom: 0px;
+  }
+
+  >img {
+    margin-bottom: 10px;
+  }
 }
 
 .recipes {
@@ -14,13 +22,20 @@ $primary-700: #5fc32e;
 }
 
 .recipe-card {
+
   >footer {}
 
   >img {}
 }
 
-// .search {
-//   max-width: 333px;
-// }
+details {
+  summary {
+    font-size: 28px;
+  }
+}
+
+[data-tooltip] {
+  font-style: normal;
+}
 
 @import "pico/scss/pico";

@@ -4,8 +4,7 @@ date = 2023-06-27
 template = "recipe.html"
 +++
 
-{% ingredients(portions=16) %}
-~16 Portionen
+{% ingredients(portions="ca. 16") %}
 
 | | |
 |-:|:-|
@@ -27,7 +26,5 @@ template = "recipe.html"
 4. Moeglichst fest der laenge nach (die lange Kante) aufrollen
 5. Ca. 2 cm dicke Scheiben abschneiden und aufs Backblech setzen, evtl. etwas nachformen
 6. Nach Packungsanweisung des Fertig-Teigs backen
-
-Soße, Käse und Schinken Mischung auf dem Teig verteilen und möglichst fest der Länge nach (die lange Kante) aufrollen. Ca 2 cm dicke Scheiben abschneiden und aufs Backblech setzen, evtl etwas nachformen. Nach packungsanweisung des Teigs backen, immer mal wieder reinschauen (schwarz ist braun genug 😜) 
 
 {% end %}

@@ -3,6 +3,7 @@
 
 {% block content %}
 <h1>{{ page.title }}</h1>
+
 <nav aria-label="breadcrumb">
   <ul>
     <li><a href="/">Rezepte</a></li>
@@ -17,6 +18,7 @@
   {% else %}
   {% endif %}
 
+  <hr>
 
   {{ page.content | safe }}
 
