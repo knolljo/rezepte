@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}Reyepte - {{ page.title }}{% endblock %}
+
+{% block content %}
+<h1>{{ page.title }}</h1>
+<nav aria-label="breadcrumb">
+  <ul>
+    <li><a href="/">Rezepte</a></li>
+    <li>{{ page.title }}</li>
+  </ul>
+</nav>
+
+<article>
+
+  {% if page.extra.img is defined %}
+  <img src="{{ page.extra.img }}">
+  {% else %}
+  {% endif %}
+
+
+  {{ page.content | safe }}
+
+</article>
+{% endblock content %}

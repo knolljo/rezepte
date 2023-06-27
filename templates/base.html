@@ -3,16 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Reyepte</title>
-  <link rel="stylesheet" href="style.css">
+  <title>{% block title %} {% endblock %}</title>
+  <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
-
   <main class="container">
     {% block content %} {% endblock %}
   </main>
-
 </body>
 
 </html>

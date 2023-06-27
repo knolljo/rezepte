@@ -1,9 +1,8 @@
 {% extends "base.html" %}
-
+{% block title %}Reyepte{% endblock %}
 
 {% block content %}
-
-<h1>Reyepte</h1>
+<h1 class="center">Reyepte</h1>
 <input type="search" id="search" name="search" placeholder="Search">
 
 <nav aria-label="breadcrumb">
@@ -12,9 +11,27 @@
   </ul>
 </nav>
 
-<div class="grid">
-  <div><article>123</article></div>
-  <div><article>123</article></div>
+<div class="recipes">
+
+  {% for page in section.pages %}
+  <div>
+    <a href="{{ page.permalink | safe }}">
+      <article>
+
+        {% if page.extra.img is defined %}
+        <img src="{{ page.extra.img }}">
+        {% else %}
+        {% endif %}
+
+        <footer>
+          {{ page.title }}
+        </footer>
+      </article>
+    </a>
+  </div>
+  {% endfor %}
+
 </div>
+
 
 {% endblock content %}

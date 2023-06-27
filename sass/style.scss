@@ -4,5 +4,23 @@ $primary-500: #8edb68;
 $primary-600: #7ad44d;
 $primary-700: #5fc32e;
 
+.center {
+  text-align: center;
+}
+
+.recipes {
+  @extend .grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.recipe-card {
+  >footer {}
+
+  >img {}
+}
+
+// .search {
+//   max-width: 333px;
+// }
 
 @import "pico/scss/pico";
