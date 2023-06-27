@@ -22,10 +22,21 @@ $primary-700: #5fc32e;
 }
 
 .recipe-card {
+  @extend article;
+  transition: transform 0.5s;
 
-  >footer {}
+  >img {
+    border-radius: var(--border-radius);
+    display: block;
+    margin: 0 auto;
 
-  >img {}
+    object-fit: cover;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
 }
 
 details {
@@ -34,8 +45,34 @@ details {
   }
 }
 
+article {
+  >img {
+    border-radius: var(--border-radius);
+  }
+}
+
 [data-tooltip] {
   font-style: normal;
 }
 
-@import "pico/scss/pico";
+// Import needed components
+// @import "pico/scss/pico"
+@import "pico/scss/variables";
+@import "pico/scss/themes/default";
+
+@import "pico/scss/layout/document";
+@import "pico/scss/layout/sectioning";
+@import "pico/scss/layout/container";
+@import "pico/scss/layout/grid";
+
+@import "pico/scss/content/miscs";
+@import "pico/scss/content/embedded";
+@import "pico/scss/content/typography";
+@import "pico/scss/content/table";
+
+@import "pico/scss/components/accordion";
+@import "pico/scss/components/card";
+@import "pico/scss/components/nav";
+
+@import "pico/scss/utilities/accessibility";
+@import "pico/scss/utilities/tooltip";
