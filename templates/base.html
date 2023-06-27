@@ -5,35 +5,14 @@
   <meta charset="utf-8">
   <title>Reyepte</title>
   <link rel="stylesheet" href="style.css">
-  <style>
-    .home {
-      color: inherit;
-    }
-    .home:hover {
-      color: black;
-    }
-
-  </style>
 </head>
 
 <body>
 
-  <nav class="container">
-    <ul>
-      <li id="home"><a href="/" aria-label="Back home" class="home"><strong>Reyepte</strong></a></li>
-    </ul>
-    <ul>
-      <li><a href="/all">Alle</a></li>
-      <li><a href="/random">Zufall</a></li>
-      <li><a href="/search" role="button">Search</a></li>
-    </ul>
-  </nav>
-
   <main class="container">
     {% block content %} {% endblock %}
   </main>
-  <footer>
-  </footer>
+
 </body>
 
 </html>
