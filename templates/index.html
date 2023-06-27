@@ -21,21 +21,29 @@
   {% for page in section.pages %}
 
   <a href="{{ page.permalink | safe }}">
-    {% if page.extra.img is defined %}
-    <article class="recipe-card">
 
+
+    <div class="recipe-card">
+
+
+      <!-- Image processing -->
+      {% if page.extra.img is defined %}
       {% set image = resize_image(path=page.extra.img, width=500, height=500, op="fill", format="webp", quality=85) %}
       <img src="{{ image.url }}" />
+      {% else %}
+      <img src="/scaled_bowl.png" />
+      {% endif %}
+      <!---------------------->
 
       <footer>
         {{ page.title }}
       </footer>
-    </article>
-    {% else %}
-    <article>
-      {{ page.title }}
-    </article>
-    {% endif %}
+
+    </div>
+
+
+
+
   </a>
   {% endfor %}
 
