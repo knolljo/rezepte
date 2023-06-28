@@ -3,11 +3,9 @@
 
 {% block content %}
 <div class="center">
-  <h1>Reyepte</h1>
+  <!-- <h1>Reyepte</h1> -->
+  <input type="search" id="search" name="search" placeholder="Search">
 </div>
-<!-- 
-<input type="search" id="search" name="search" placeholder="Search">
--->
 
 <nav aria-label="breadcrumb">
   <ul>
@@ -41,5 +39,32 @@
 
 </div>
 
+<script>
+  // Retrieve the search input element
+  const searchInput = document.getElementById('search');
+
+  // Retrieve all recipe card elements
+  const recipeCards = document.querySelectorAll('.recipe-card');
+
+  // Function to filter and display matching recipe cards
+  const filterRecipeCards = (searchValue) => {
+    searchValue = searchValue.toLowerCase();
+
+    recipeCards.forEach((card) => {
+      const title = card.querySelector('div').textContent.toLowerCase();
+      if (title.includes(searchValue)) {
+        card.style.display = 'block'; // Show matching cards
+      } else {
+        card.style.display = 'none'; // Hide non-matching cards
+      }
+    });
+  };
+
+  // Event listener for the search input
+  searchInput.addEventListener('input', (event) => {
+    const searchValue = event.target.value;
+    filterRecipeCards(searchValue);
+  });
+</script>
 
 {% endblock content %}
