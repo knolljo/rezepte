@@ -24,7 +24,7 @@ img = "/ruehrei.jpg"
 3. Eier in einer Schuessel salzen und pfeffern (6 dreher Salz, 4 Pfeffer)
 4. Eine Prise Muskatnuss dazu geben
 5. Zu einer einheitlichen Menge verkleppern
-6. Ei in die Pfannegeben und kurz (ca 10 s) stocken lassen
+6. Ei in die Pfanne und kurz stocken lassen
 7. Mit einem Schaber den Boden, den bereits gestockten Teil des Eis in die Mitte der Pfanne schaben
 8. Vorgang wiederholen bis das gesamte Ei gestockt ist, es darf noch leicht fluessig sein, da nach es nach dem Holen aus der Pfanne nachstockt
 
