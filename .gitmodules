@@ -1,6 +1,3 @@
 [submodule "sass/pico"]
 	path = sass/pico
 	url = https://github.com/picocss/pico.git
-[submodule "sass/bootstrap"]
-	path = sass/bootstrap
-	url = git@github.com:twbs/bootstrap.git
