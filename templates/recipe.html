@@ -14,7 +14,10 @@
 <article>
 
   {% if page.extra.img is defined %}
-  <img src="{{ page.extra.img }}">
+
+  {% set image = resize_image(path=page.extra.img, width=750, height=500, format="webp", quality=85) %}
+  <img src="{{ image.url }}" class="full-img" width="750" height="500" alt="{{ page.title }}" />
+
   {% else %}
   {% endif %}
 
