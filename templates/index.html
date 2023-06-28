@@ -3,7 +3,6 @@
 
 {% block content %}
 <div class="center">
-  <img src="bowl.png" width="66px">
   <h1>Reyepte</h1>
 </div>
 <!-- 
@@ -25,10 +24,10 @@
 
       <!-- Image processing -->
       {% if page.extra.img is defined %}
-      {% set image = resize_image(path=page.extra.img, width=500, height=500, op="fill", format="webp", quality=85) %}
-      <img src="{{ image.url }}" />
+      {% set image = resize_image(path=page.extra.img, width=500, height=500, op="fill", format="webp", quality=33) %}
+      <img src="{{ image.url }}" width="500" height="500" alt="{{ page.title }}" />
       {% else %}
-      <img src="/scaled_bowl.png" />
+      <img src="/scaled_bowl.webp" width="500" height="500" alt="A bowl" />
       {% endif %}
       <!---------------------->
 
