@@ -2,6 +2,8 @@
 title = "Pizza Schnecken"
 date = 2023-06-27
 template = "recipe.html"
+[extra]
+img = "pizzaschnecken.jpg"
 +++
 
 {% ingredients(portions="ca. 16") %}
