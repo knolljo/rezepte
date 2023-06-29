@@ -2,6 +2,8 @@
 title = "Haferporrige"
 date = 2023-06-27
 template = "recipe.html"
+[extra]
+img = "haferporrige.jpg"
 +++
 
 {% ingredients(portions=1) %}
