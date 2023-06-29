@@ -2,6 +2,8 @@
 title = "Erdnusssosse"
 date = 2023-06-27
 template = "recipe.html"
+[extra]
+img = "erdnusssosse.jpg"
 +++
 
 {% ingredients(portions=1) %}
