@@ -6,17 +6,17 @@ template = "recipe.html"
 
 {% ingredients(portions=3) %}
 
-| | |
-|-:|:-|
-| 6 | Sojasosse |
-| 8 EL | Heller Essig |
-| 3 EL | Tomatenmark |
-| 5 EL | Brauner Zucker |
+|        |                   |
+|-:      |:-                 |
+| 6      | Sojasosse         |
+| 8 EL   | Heller Essig      |
+| 3 EL   | Tomatenmark       |
+| 5 EL   | Brauner Zucker    |
 | 200 ml | Ananassaft (Dose) |
-| 1 EL | Speisestaerke |
-| | Ingwer |
-| | Chili |
-| | Knoblauch |
+| 1 EL   | Speisestaerke     |
+|        | Ingwer            |
+|        | Chili             |
+|        | Knoblauch         |
 
 {% end %}
 

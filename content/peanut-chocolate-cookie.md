@@ -6,17 +6,17 @@ template = "recipe.html"
 
 {% ingredients(portions=12) %}
 
-| | |
-|-:|:-|
-| 90 g | Brauner Zucker |
-| 120 g | Butter |
-| 1 | Ei |
-| 5 Tropfen | Vanillearoma |
-| 40 g | Erdnussbutter |
-| 180 g | Mehl |
-| 1/2 TL | Backpulver |
-| 1/4 TL | Salz |
-| 150 g | Schokodrops (zartbitter) |
+|           |                          |
+|-:         |:-                        |
+| 90 g      | Brauner Zucker           |
+| 120 g     | Butter                   |
+| 1         | Ei                       |
+| 5 Tropfen | Vanillearoma             |
+| 40 g      | Erdnussbutter            |
+| 180 g     | Mehl                     |
+| 1/2 TL    | Backpulver               |
+| 1/4 TL    | Salz                     |
+| 150 g     | Schokodrops (zartbitter) |
 
 {% end %}
 

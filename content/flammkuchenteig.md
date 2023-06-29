@@ -6,12 +6,12 @@ template = "recipe.html"
 
 {% ingredients(portions=1) %}
 
-| | |
-|-:|:-|
-| 250 g | Mehl |
-| 125 ml | Wasser |
-| 1 EL | Olivenoel |
-| Prise | Salz |
+|        |           |
+|-:      |:-         |
+| 250 g  | Mehl      |
+| 125 ml | Wasser    |
+| 1 EL   | Olivenoel |
+| Prise  | Salz      |
 
 
 {% end %}

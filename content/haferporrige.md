@@ -8,12 +8,12 @@ img = "haferporrige.jpg"
 
 {% ingredients(portions=1) %}
 
-| | |
-|-:|:-|
-| 400 ml | Hafermilch |
-| 6 EL | Haferflocken |
-| 1 EL | Zucker |
-| | Zimt |
+|        |              |
+|-:      |:-            |
+| 400 ml | Hafermilch   |
+| 6 EL   | Haferflocken |
+| 1 EL   | Zucker       |
+|        | Zimt         |
 
 {% end %}
 

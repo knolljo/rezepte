@@ -6,22 +6,22 @@ template = "recipe.html"
 
 {% ingredients(portions=4) %}
 
-| | |
-|-:|:-|
-| 250 g | Kritharaki |
-| 3 | Karotten |
-| 1 Bund | Stangensellerie |
-| 1 | Knoblauchzehe |
-| 1 | Zwiebel |
+|                      |                    |
+|-:                    |:-                  |
+| 250 g                | Kritharaki         |
+| 3                    | Karotten           |
+| 1 Bund               | Stangensellerie    |
+| 1                    | Knoblauchzehe      |
+| 1                    | Zwiebel            |
 | 1 Pack (ca 6 Stueck) | Braune Champignons |
-| 1 Dose | Gehackte Tomaten |
-| 1,2 L | Gemuesebruehe |
-| 80 g | Gefrorenen Spinat |
-| 1/2 TL | Thymian |
-| 1/2 TL | Oregano |
-| 1/2 TL | Rosmarin |
-| 125 g | Speckwuerfel |
-| | Parmesan |
+| 1 Dose               | Gehackte Tomaten   |
+| 1,2 L                | Gemuesebruehe      |
+| 80 g                 | Gefrorenen Spinat  |
+| 1/2 TL               | Thymian            |
+| 1/2 TL               | Oregano            |
+| 1/2 TL               | Rosmarin           |
+| 125 g                | Speckwuerfel       |
+|                      | Parmesan           |
 
 
 

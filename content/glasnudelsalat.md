@@ -6,15 +6,15 @@ template = "recipe.html"
 
 {% ingredients(portions=3) %}
 
-| | |
-|-:|:-|
+|        |                   |
+|-:      |:-                 |
 | 1 Pack | Duenne Glasnudeln |
-| 1 | Paprika |
-| 1 | Gurke  |
-| 2 | Karotten |
-| 3 EL | Sojasosse |
-| 3 EL | Heller Essig |
-| 3 EL | Olivenoel |
+| 1      | Paprika           |
+| 1      | Gurke             |
+| 2      | Karotten          |
+| 3 EL   | Sojasosse         |
+| 3 EL   | Heller Essig      |
+| 3 EL   | Olivenoel         |
 
 {% end %}
 

@@ -6,15 +6,15 @@ template = "recipe.html"
 
 {% ingredients(portions=3) %}
 
-| | |
-|-:|:-|
-| 300 g | Risottoreis |
-| 1,2 L | Gemuesebruehe |
+|        |                            |
+|-:      |:-                          |
+| 300 g  | Risottoreis                |
+| 1,2 L  | Gemuesebruehe              |
 | 1 Glas | Gruene Oliven (ohne Stein) |
-| 2 | Zucchini |
-| 1 | Zwiebel |
-| 1 | Knoblauchzehe |
-| | Parmesan |
+| 2      | Zucchini                   |
+| 1      | Zwiebel                    |
+| 1      | Knoblauchzehe              |
+|        | Parmesan                   |
 
 {% end %}
 

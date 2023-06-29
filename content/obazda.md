@@ -6,17 +6,17 @@ template = "recipe.html"
 
 {% ingredients(portions=1) %}
 
-| | |
-|-:|:-|
-| 200 g | Reifer Camembert |
-| 200 g | Doppelrahm-Frischkaese |
-| 30 g | Weiche Butter |
-| 1 TL | Paprika edelsuess |
-| 1 TL | Schwarzer Pfeffer (grob gemahlen) |
-| 1/2 TL | Salz |
-| 2 TL | Kuemmel (ganz) |
-| | Schnittlauch |
-| | Radiesschen |
+|        |                                   |
+|-:      |:-                                 |
+| 200 g  | Reifer Camembert                  |
+| 200 g  | Doppelrahm-Frischkaese            |
+| 30 g   | Weiche Butter                     |
+| 1 TL   | Paprika edelsuess                 |
+| 1 TL   | Schwarzer Pfeffer (grob gemahlen) |
+| 1/2 TL | Salz                              |
+| 2 TL   | Kuemmel (ganz)                    |
+|        | Schnittlauch                      |
+|        | Radiesschen                       |
 
 {% end %}
 

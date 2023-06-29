@@ -8,12 +8,12 @@ img = "/toast.jpg"
 
 {% ingredients(portions=1) %}
 
-| | |
-|-:|:-|
-| 1 | Toast |
-| 1 | Ei |
+|           |             |
+|-:         |:-           |
+| 1         | Toast       |
+| 1         | Ei          |
 | 1 Scheibe | Butterkaese |
-| 1 Scheibe | Speck |
+| 1 Scheibe | Speck       |
 
 {% end %}
 

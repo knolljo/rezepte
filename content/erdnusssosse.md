@@ -8,11 +8,11 @@ img = "erdnusssosse.jpg"
 
 {% ingredients(portions=1) %}
 
-| | |
-|-:|:-|
-| 2 EL | Cremige Erdnussbutter |
-| 1 EL | Sojasosse |
-| 10 EL | Wasser |
+|       |                       |
+|-:     |:-                     |
+| 2 EL  | Cremige Erdnussbutter |
+| 1 EL  | Sojasosse             |
+| 10 EL | Wasser                |
 
 {% end %}
 

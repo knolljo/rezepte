@@ -6,14 +6,14 @@ template = "recipe.html"
 
 {% ingredients(portions="1 x 750 ml") %}
 
-| | |
-|-:|:-|
-| 1 Glas (680 g) | Pflaumen |
-| 200 ml | Cola |
-| 750 ml | Ketchup |
-| 2 EL | Sauce |
-| 3 EL | Currypulver |
-| 1 EL | Zitronensaft |
+|                |              |
+|-:              |:-            |
+| 1 Glas (680 g) | Pflaumen     |
+| 200 ml         | Cola         |
+| 750 ml         | Ketchup      |
+| 2 EL           | Sauce        |
+| 3 EL           | Currypulver  |
+| 1 EL           | Zitronensaft |
 
 {% end %}
 

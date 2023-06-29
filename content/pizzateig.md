@@ -6,13 +6,13 @@ template = "recipe.html"
 
 {% ingredients(portions=2) %}
 
-| | |
-|-:|:-|
-| 460 g | Mehl |
-| 250 ml | Wasser |
+|        |                     |
+|-:      |:-                   |
+| 460 g  | Mehl                |
+| 250 ml | Wasser              |
 | 1 Pack | Trocken/Frisch Hefe |
-| 1 TL | Salz |
-| 1 TL | Zucker |
+| 1 TL   | Salz                |
+| 1 TL   | Zucker              |
 
 {% end %}
 

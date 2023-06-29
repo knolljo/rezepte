@@ -8,14 +8,14 @@ img = "pizzaschnecken.jpg"
 
 {% ingredients(portions="ca. 16") %}
 
-| | |
-|-:|:-|
-| 1 Pack | Fertig-Pizzateig |
+|        |                       |
+|-:      |:-                     |
+| 1 Pack | Fertig-Pizzateig      |
 | 1 Pack | geriebener Mozzarella |
-| 1 Pack | Salami (100g) |
-| 1 Pack | Kochschinken (100g)|
-| 1 | Zwiebel |
-| | Oregano |
+| 1 Pack | Salami (100g)         |
+| 1 Pack | Kochschinken (100g)   |
+| 1      | Zwiebel               |
+|        | Oregano               |
 
 
 {% end %}

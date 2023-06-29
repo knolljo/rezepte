@@ -8,12 +8,12 @@ img = "/ruehrei.jpg"
 
 {% ingredients(portions=1) %}
 
-| | |
-|-:|:-|
-| 2 | Eier |
-| | Salz |
-| | Pfeffer |
-| | Muskatnuss |
+|   |            |
+|-: |:-          |
+| 2 | Eier       |
+|   | Salz       |
+|   | Pfeffer    |
+|   | Muskatnuss |
 
 {% end %}
 
