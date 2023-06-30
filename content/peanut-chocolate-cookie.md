@@ -2,6 +2,8 @@
 title = "Peanut-Chocolate-Chip Cookie"
 date = 2023-06-27
 template = "recipe.html"
+[extra]
+img = "peanut-chocolate-cookie2.jpg"
 +++
 
 {% ingredients(portions=12) %}
