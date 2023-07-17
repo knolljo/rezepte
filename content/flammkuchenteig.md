@@ -2,6 +2,8 @@
 title = "Flammkuchenteig"
 date = 2023-06-27
 template = "recipe.html"
+[extra]
+img = "/flammkuchen.jpg"
 +++
 
 {% ingredients(portions=1) %}

@@ -2,6 +2,8 @@
 title = "Kritharaki Eintopf"
 date = 2023-06-27
 template = "recipe.html"
+[extra]
+img = "/kritharaki.jpg"
 +++
 
 {% ingredients(portions=4) %}
