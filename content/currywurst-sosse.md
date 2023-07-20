@@ -2,6 +2,8 @@
 title = "Currywurst Sosse"
 date = 2023-06-27
 template = "recipe.html"
+[extra]
+img = "/currywurst.jpg"
 +++
 
 {% ingredients(portions="1 x 750 ml") %}
