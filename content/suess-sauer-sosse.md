@@ -2,6 +2,8 @@
 title = "Suess Sauer Sosse"
 date = 2023-06-27
 template = "recipe.html"
+[extra]
+img = "/suess-sauer.jpg"
 +++
 
 {% ingredients(portions=3) %}

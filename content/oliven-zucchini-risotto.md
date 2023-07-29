@@ -2,6 +2,8 @@
 title = "Oliven-Zucchini-Risotto"
 date = 2023-06-27
 template = "recipe.html"
+[extra]
+img = "/oliven-risotto.jpg"
 +++
 
 {% ingredients(portions=3) %}
