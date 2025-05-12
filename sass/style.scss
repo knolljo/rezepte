@@ -54,28 +54,35 @@ $primary-700: #5fc32e;
 
   overflow: hidden;
 
-  >div {
+  > div {
     position: absolute;
     bottom: 0;
+    left: 0;
+    width: 100%;
     padding: 10px;
     padding-top: 12px;
-    width: 100%;
+    box-sizing: border-box;
+
     text-align: center;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.4));
-    background-clip: border-box;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.75) 25%, transparent 100%);
+
+    color: white;
+
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+
   }
 
-  >img {
+  > img {
     flex-shrink: 0;
     min-width: 100%;
-    min-height: 100%
+    min-height: 100%;
+    object-fit: cover;
   }
 
   &:hover {
     transform: scale(1.06);
   }
-
 }
 
 details {
